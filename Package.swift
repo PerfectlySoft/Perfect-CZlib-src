@@ -3,4 +3,12 @@
 
 import PackageDescription
 
-let package = Package(name: "PerfectCZlib")
+let package = Package(
+	name: "PerfectCZlib",
+	products: [
+		.library(name: "PerfectCZlib", targets: ["PerfectCZlib"])
+	],
+	targets: [
+	.target(name: "PerfectCZlib", path: "PerfectCZlib", exclude: ["contrib"])
+	]
+)
