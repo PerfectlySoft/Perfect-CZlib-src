@@ -9,6 +9,6 @@ let package = Package(
 		.library(name: "PerfectCZlib", targets: ["PerfectCZlib"])
 	],
 	targets: [
-	.target(name: "PerfectCZlib", path: "PerfectCZlib", exclude: ["contrib"])
+	.target(name: "PerfectCZlib", path: "PerfectCZlib", exclude: ["contrib", "test", "examples"])
 	]
 )
