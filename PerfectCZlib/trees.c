@@ -1,3 +1,4 @@
+#pragma clang diagnostic ignored "-Wdeprecated-non-prototype"
 /* trees.c -- output deflated data using Huffman coding
  * Copyright (C) 1995-2016 Jean-loup Gailly
  * detect_data_type() function provided freely by Cosmin Truta, 2006
